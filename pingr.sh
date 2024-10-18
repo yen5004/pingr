@@ -10,7 +10,7 @@ while true; do
     count=$((count + 1))
     echo "$count $IP is up $(date)"
   else
-    echo "($date): $IP is down!!!"
+    echo "$(date): $IP is down!!!"
   fi
   sleep 61
 done
